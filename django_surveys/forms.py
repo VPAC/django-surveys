@@ -33,5 +33,5 @@ class QuestionForm(forms.ModelForm):
 
     class Meta:
         model = Question
-        exclude = ('survey_group')
+        exclude = ('survey_group',)
         
