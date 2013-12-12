@@ -1,3 +1,9 @@
+django-surveys (1.0.11-1) unstable; urgency=low
+
+  * Fix Django 1.6 compatability.
+
+ -- Brian May <bam@debian.org>  Thu, 12 Dec 2013 11:41:09 +1100
+
 django-surveys (1.0.10-1) unstable; urgency=low
 
   * Update Debian packaging.
