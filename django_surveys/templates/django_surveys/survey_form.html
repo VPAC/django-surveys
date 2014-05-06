@@ -7,13 +7,13 @@
 {% block content_title %}{% endblock %}
 
 {% block extrahead %}
-<script type="text/javascript" src="{% url admin:jsi18n %}"></script> 
+<script type="text/javascript" src="{% url 'admin:jsi18n' %}"></script> 
 <script type="text/javascript" src="{% admin_media_prefix %}js/core.js"></script>
 {{ surveygroup_form.media }}
 {% endblock %}    
 
 {% block bread_crumbs_1 %}
- &rsaquo; <a href="{% url surv_surveygroup_list %}">Surveys</a>
+ &rsaquo; <a href="{% url 'surv_surveygroup_list' %}">Surveys</a>
  &rsaquo; {{ surveygroup|default_if_none:"Create" }}
 {% endblock %}    
 

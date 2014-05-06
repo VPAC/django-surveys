@@ -8,6 +8,6 @@
 
 {% block objecttools %}
 {% if perms.django_surveys.survey_admin %}
-<ul class="object-tools"><li><a href="{% url surv_survey_add %}" class="addlink">Create Survey</a></li></ul>
+<ul class="object-tools"><li><a href="{% url 'surv_survey_add' %}" class="addlink">Create Survey</a></li></ul>
 {% endif %}
 {% endblock %}
