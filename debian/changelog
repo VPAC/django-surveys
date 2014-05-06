@@ -1,3 +1,10 @@
+django-surveys (1.0.12-1) unstable; urgency=low
+
+  * Update django url tags, required for Django 1.6.
+  * Remove reference to obsolete adminmedia tag library.
+
+ -- Brian May <bam@debian.org>  Tue, 06 May 2014 15:07:45 +1000
+
 django-surveys (1.0.11-1) unstable; urgency=low
 
   * Fix Django 1.6 compatability.
